@@ -15,12 +15,12 @@ forge test
 
 ## Deploy
 
-    ```bash
-    forge script ./script/DeployToken.s.sol --rpc-url $SEPOLIA_RPC --broadcast
-    ```
+```bash
+forge script ./script/DeployToken.s.sol --rpc-url $SEPOLIA_RPC --broadcast
+```
 
 ## Deploy and Verify
 
-    ```bash
-    forge script ./script/DeployToken.s.sol --rpc-url $SEPOLIA_RPC --broadcast --verify
-    ```
+```bash
+forge script ./script/DeployToken.s.sol --rpc-url $SEPOLIA_RPC --broadcast --verify
+```
